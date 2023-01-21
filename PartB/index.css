@@ -290,4 +290,27 @@ audio {
 .footer {
   position: fixed;
 }
+.card-image1 {
+    grid-area: image;
+    background: url("static/images/mumbai.jpeg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  
+  .card-image2 {
+    grid-area: image;
+    background: url("static/images/london.jpeg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  
+  .card-image3 {
+    grid-area: image;
+    background: url("static/images/las_vegas.jpeg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
 /* End Block  */
